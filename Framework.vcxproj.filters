@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Code\OpenGL.h" />
+    <ClInclude Include="Code\Graphics.h" />
+    <ClInclude Include="Code\Base.h" />
+    <ClInclude Include="Code\World.h" />
+    <ClInclude Include="TerathonCode\TSPlatform.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSQuaternion.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSRect.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSSimd.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSString.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSText.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSTools.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSTree.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSTrivector4D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSVector2D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSVector3D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSVector4D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSAlgebra.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSArray.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSBasic.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSBezier.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSBivector3D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSBivector4D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSBox.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSColor.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSFlector4D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSGraph.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSHalf.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSHash.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSInteger.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSList.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSMap.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSMath.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSMatrix2D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSMatrix3D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSMatrix4D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSMotor4D.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSObservable.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\OpenGEX.h" />
+    <ClInclude Include="TerathonCode\TSData.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+    <ClInclude Include="TerathonCode\TSOpenDDL.h">
+      <Filter>Terathon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Main.cpp" />
+    <ClCompile Include="Code\Graphics.cpp" />
+    <ClCompile Include="Code\Base.cpp" />
+    <ClCompile Include="Code\World.cpp" />
+    <ClCompile Include="TerathonCode\TSQuaternion.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSString.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSText.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSTools.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSTree.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSTrivector4D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSVector2D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSVector3D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSVector4D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSAlgebra.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSBezier.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSBivector3D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSBivector4D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSBox.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSColor.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSFlector4D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSGraph.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSHalf.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSHash.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSList.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSMap.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSMath.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSMatrix2D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSMatrix3D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSMatrix4D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSMotor4D.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\OpenGEX.cpp" />
+    <ClCompile Include="TerathonCode\TSData.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+    <ClCompile Include="TerathonCode\TSOpenDDL.cpp">
+      <Filter>Terathon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Terathon">
+      <UniqueIdentifier>{bc5aabe4-969b-49f5-8b4c-e84aa1abb3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{e9b7299b-6e4d-47ff-a3f5-b4f96bf183fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Stone-Light.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Stone-Ambient.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Constant.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Goblin-Ambient.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Goblin-Light.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Trunk-Ambient.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Trunk-Light.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Branch-Ambient.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Branch-Light.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Eye-Ambient.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Eye-Light.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

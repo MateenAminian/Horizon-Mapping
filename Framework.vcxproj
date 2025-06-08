@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Base.h" />
+    <ClInclude Include="Code\Graphics.h" />
+    <ClInclude Include="Code\OpenGEX.h" />
+    <ClInclude Include="Code\OpenGL.h" />
+    <ClInclude Include="Code\World.h" />
+    <ClInclude Include="TerathonCode\TSAlgebra.h" />
+    <ClInclude Include="TerathonCode\TSArray.h" />
+    <ClInclude Include="TerathonCode\TSBasic.h" />
+    <ClInclude Include="TerathonCode\TSBezier.h" />
+    <ClInclude Include="TerathonCode\TSBivector3D.h" />
+    <ClInclude Include="TerathonCode\TSBivector4D.h" />
+    <ClInclude Include="TerathonCode\TSBox.h" />
+    <ClInclude Include="TerathonCode\TSColor.h" />
+    <ClInclude Include="TerathonCode\TSData.h" />
+    <ClInclude Include="TerathonCode\TSFlector4D.h" />
+    <ClInclude Include="TerathonCode\TSGraph.h" />
+    <ClInclude Include="TerathonCode\TSHalf.h" />
+    <ClInclude Include="TerathonCode\TSHash.h" />
+    <ClInclude Include="TerathonCode\TSInteger.h" />
+    <ClInclude Include="TerathonCode\TSList.h" />
+    <ClInclude Include="TerathonCode\TSMap.h" />
+    <ClInclude Include="TerathonCode\TSMath.h" />
+    <ClInclude Include="TerathonCode\TSMatrix2D.h" />
+    <ClInclude Include="TerathonCode\TSMatrix3D.h" />
+    <ClInclude Include="TerathonCode\TSMatrix4D.h" />
+    <ClInclude Include="TerathonCode\TSMotor4D.h" />
+    <ClInclude Include="TerathonCode\TSObservable.h" />
+    <ClInclude Include="TerathonCode\TSOpenDDL.h" />
+    <ClInclude Include="TerathonCode\TSPlatform.h" />
+    <ClInclude Include="TerathonCode\TSQuaternion.h" />
+    <ClInclude Include="TerathonCode\TSRect.h" />
+    <ClInclude Include="TerathonCode\TSSimd.h" />
+    <ClInclude Include="TerathonCode\TSString.h" />
+    <ClInclude Include="TerathonCode\TSText.h" />
+    <ClInclude Include="TerathonCode\TSTools.h" />
+    <ClInclude Include="TerathonCode\TSTree.h" />
+    <ClInclude Include="TerathonCode\TSTrivector4D.h" />
+    <ClInclude Include="TerathonCode\TSVector2D.h" />
+    <ClInclude Include="TerathonCode\TSVector3D.h" />
+    <ClInclude Include="TerathonCode\TSVector4D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Base.cpp" />
+    <ClCompile Include="Code\Graphics.cpp" />
+    <ClCompile Include="Code\Main.cpp" />
+    <ClCompile Include="Code\OpenGEX.cpp" />
+    <ClCompile Include="Code\World.cpp" />
+    <ClCompile Include="TerathonCode\TSAlgebra.cpp" />
+    <ClCompile Include="TerathonCode\TSBezier.cpp" />
+    <ClCompile Include="TerathonCode\TSBivector3D.cpp" />
+    <ClCompile Include="TerathonCode\TSBivector4D.cpp" />
+    <ClCompile Include="TerathonCode\TSBox.cpp" />
+    <ClCompile Include="TerathonCode\TSColor.cpp" />
+    <ClCompile Include="TerathonCode\TSData.cpp" />
+    <ClCompile Include="TerathonCode\TSFlector4D.cpp" />
+    <ClCompile Include="TerathonCode\TSGraph.cpp" />
+    <ClCompile Include="TerathonCode\TSHalf.cpp" />
+    <ClCompile Include="TerathonCode\TSHash.cpp" />
+    <ClCompile Include="TerathonCode\TSList.cpp" />
+    <ClCompile Include="TerathonCode\TSMap.cpp" />
+    <ClCompile Include="TerathonCode\TSMath.cpp" />
+    <ClCompile Include="TerathonCode\TSMatrix2D.cpp" />
+    <ClCompile Include="TerathonCode\TSMatrix3D.cpp" />
+    <ClCompile Include="TerathonCode\TSMatrix4D.cpp" />
+    <ClCompile Include="TerathonCode\TSMotor4D.cpp" />
+    <ClCompile Include="TerathonCode\TSOpenDDL.cpp" />
+    <ClCompile Include="TerathonCode\TSQuaternion.cpp" />
+    <ClCompile Include="TerathonCode\TSString.cpp" />
+    <ClCompile Include="TerathonCode\TSText.cpp" />
+    <ClCompile Include="TerathonCode\TSTools.cpp" />
+    <ClCompile Include="TerathonCode\TSTree.cpp" />
+    <ClCompile Include="TerathonCode\TSTrivector4D.cpp" />
+    <ClCompile Include="TerathonCode\TSVector2D.cpp" />
+    <ClCompile Include="TerathonCode\TSVector3D.cpp" />
+    <ClCompile Include="TerathonCode\TSVector4D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Branch-Ambient.glsl" />
+    <None Include="Shaders\Branch-Light.glsl" />
+    <None Include="Shaders\Eye-Ambient.glsl" />
+    <None Include="Shaders\Eye-Light.glsl" />
+    <None Include="Shaders\Trunk-Ambient.glsl" />
+    <None Include="Shaders\Trunk-Light.glsl" />
+    <None Include="Shaders\Stone-Ambient.glsl" />
+    <None Include="Shaders\Stone-Light.glsl" />
+    <None Include="Shaders\Constant.glsl" />
+    <None Include="Shaders\Goblin-Ambient.glsl" />
+    <None Include="Shaders\Goblin-Light.glsl" />
+    <None Include="Shaders\Vertex.glsl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B7193CD5-25E2-48CE-B5E0-320ADA14F5EA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Framework</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Framework</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)</OutDir>
+    <TargetName>FrameworkOpenGL</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)</OutDir>
+    <TargetName>FrameworkOpenGL</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PreprocessorDefinitions>TERATHON_NO_SYSTEM;FRAMEWORK_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)TerathonCode;$(ProjectDir)SlugCode</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>slug.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>TERATHON_NO_SYSTEM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)TerathonCode;$(ProjectDir)SlugCode</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>slug.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+
+<Type Name="Terathon::Integer2D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Integer3D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}, z={z.data[2]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Vector2D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Vector3D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}, z={z.data[2]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Bivector3D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}, z={z.data[2]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Vector4D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}, z={z.data[2]}, w={w.data[3]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Trivector4D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}, z={z.data[2]}, w={w.data[3]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Point2D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Point3D">
+    <DisplayString>{{x={x.data[0]}, y={y.data[1]}, z={z.data[2]}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Quaternion">
+    <DisplayString>{{x={x}, y={y}, z={z}, w={w}}}</DisplayString>
+</Type>
+
+<Type Name="Terathon::Matrix3D">
+    <DisplayString>Matrix3D</DisplayString>
+	<Expand>
+		<Item Name="Column 0">(Terathon::Vector3D *) &amp;col0.data[0]</Item>
+		<Item Name="Column 1">(Terathon::Vector3D *) &amp;col1.data[3]</Item>
+		<Item Name="Column 2">(Terathon::Vector3D *) &amp;col2.data[6]</Item>
+	</Expand>
+</Type>
+
+<Type Name="Terathon::Matrix4D">
+    <DisplayString>Matrix4D</DisplayString>
+	<Expand>
+		<Item Name="Column 0">(Terathon::Vector4D *) &amp;col0.data[0]</Item>
+		<Item Name="Column 1">(Terathon::Vector4D *) &amp;col1.data[4]</Item>
+		<Item Name="Column 2">(Terathon::Vector4D *) &amp;col2.data[8]</Item>
+		<Item Name="Column 3">(Terathon::Vector4D *) &amp;col3.data[12]</Item>
+	</Expand>
+</Type>
+
+<Type Name="Terathon::Transform4D">
+    <DisplayString>Transform4D</DisplayString>
+	<Expand>
+		<Item Name="Column 0">(Terathon::Vector3D *) &amp;col0.data[0]</Item>
+		<Item Name="Column 1">(Terathon::Vector3D *) &amp;col1.data[4]</Item>
+		<Item Name="Column 2">(Terathon::Vector3D *) &amp;col2.data[8]</Item>
+		<Item Name="Column 3">(Terathon::Point3D *) &amp;col3.data[12]</Item>
+	</Expand>
+</Type>
+
+<Type Name="Terathon::String&lt;*&gt;">
+	<DisplayString>{c,s8}</DisplayString>
+	<StringView>c,s8</StringView>
+</Type>
+
+<Type Name="Terathon::String&lt;0&gt;">
+	<DisplayString>{stringPointer,s8}</DisplayString>
+	<StringView>stringPointer,s8</StringView>
+</Type>
+
+<Type Name="Terathon::ImmutableArray&lt;*&gt;">
+	<DisplayString>Array [{elementCount}]</DisplayString>
+	<Expand>
+		<Item Name="elementCount">elementCount</Item>
+		<ArrayItems>
+			<Size>elementCount</Size>
+			<ValuePointer>arrayPointer</ValuePointer>
+		</ArrayItems>
+	</Expand>
+</Type>
+
+<Type Name="Terathon::List&lt;*&gt;">
+	<DisplayString>List</DisplayString>
+	<Expand>
+		<LinkedListItems>
+			<HeadPointer>firstListElement</HeadPointer>
+			<NextPointer>nextListElement</NextPointer>
+			<ValueNode>this</ValueNode>
+		</LinkedListItems>
+	</Expand>
+</Type>
+
+<Type Name="Terathon::Map&lt;*&gt;">
+	<DisplayString>Map</DisplayString>
+	<Expand>
+		<TreeItems>
+			<HeadPointer>rootNode</HeadPointer>
+			<LeftPointer>leftSubnode</LeftPointer>
+			<RightPointer>rightSubnode</RightPointer>
+			<ValueNode>this</ValueNode>
+		</TreeItems>
+	</Expand>
+</Type>
+
+
+</AutoVisualizer>
