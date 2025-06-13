@@ -8,7 +8,7 @@ A C++ / OpenGL graphics programming project built on top of a provided starter f
 
 This project was developed as part of an advanced computer graphics course.  
 - A base OpenGL rendering framework was provided to all students.
-- The core task was to **design and implement an eight-channel horizon mapping solution** as described in *Section 7.8 of the course textbook*.
+- The core task was to **design and implement an eight-channel horizon mapping solution**
 - Additional work involved GLSL shader development, procedural terrain adjustments, and lighting models.
 
 ---
